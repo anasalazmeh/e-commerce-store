@@ -2,7 +2,14 @@
   "name": "e-commerce-store",
   "version": "0.1.0",
   "private": true,
+  
+  "name": "my-project",
+  "version": "1.0.0",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
+    "start": "node index.js"
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
